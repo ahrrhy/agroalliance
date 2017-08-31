@@ -6,7 +6,7 @@ function theme_settings_init(){
 }
 // Добавление настроек в меню страницы
 function add_settings_page() {
-    add_menu_page( __( 'Ваші контактні дані' ), __( 'Ваші контактні дані' ), 'manage_options', 'settings', 'theme_settings_page');
+    add_menu_page( __( 'Контактні дані у підвалі сайту' ), __( 'Контактні дані у підвалі сайту' ), 'manage_options', 'settings', 'theme_settings_page');
 }
 //Добавление действий
 add_action( 'admin_init', 'theme_settings_init' );
@@ -24,7 +24,7 @@ function theme_settings_page() {
         <form method="post" action="options.php">
             <fieldset>
 
-                <legend>Ваші контактні дані</legend>
+                <legend>Контактні дані у підвалі сайту</legend>
                 <?php settings_fields( 'theme_settings' ); ?>
                 <?php $options = get_option( 'theme_settings' ); ?>
                 <ul>

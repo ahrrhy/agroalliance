@@ -13,7 +13,8 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" <?php language_attributes(); ?>>
-    <meta name="keywords" content="npkagroalliance, удобрения, азотные, фосфорные, калийные, удобрения Черкассы" />
+    <meta name="keywords" content="npkagroalliance, купить удобрения, азотные, фосфорные, калийные, купить удобрения Черкассы" />
+    <meta name="description" content="npkagroalliance, купить удобрения, азотные, фосфорные, калийные, купить удобрения Черкассы, npk-agroalliance, npk, agroalliance">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
